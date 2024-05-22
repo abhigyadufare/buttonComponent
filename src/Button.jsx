@@ -7,7 +7,7 @@ const Button = () => {
       };
   return (
     <>
-        <button onClick={handleSubmit}>Get HostName</button>
+        <button onClick={handleSubmit}>Get HostName new</button>
         {hostname && (
             <p>Hostname: {hostname}</p>
         )}
