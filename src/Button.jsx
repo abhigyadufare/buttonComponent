@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Button = () => {
     const [hostname, setHostname] = useState('');
     const handleSubmit = () => {
-        setHostname(window.location.origin);
+        setHostname(document.location.pathname);
       };
   return (
     <>
